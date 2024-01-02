@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    padding: 0;
+    margin: auto;
+    padding: 20px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar-nav{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    float: right;
+    font-weight: bold;
+    font: 400;
+    font-size: 15px;
+    padding: 30px 40px 10px 10px;
+}
+
+.navbar-item a.nav-link{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    transform: rotate3d(20px 0px 10px);
+    cursor: pointer;
+    color: black;
+    transition-duration: 100ms;
+}
+
+.navbar-item a.nav-link:hover{
+    text-decoration: 3px underline orange;
+    transition: all;
+}
+
+.gambar{
+    display: block;
+    float: left;
+    padding: 0;
+    margin: auto;
+}
+
+.gambar p.text{
+    text-align: center;
+    padding: 10px 230px 0px 10px;
+}
+
+a.text-btn{
+    display: flex;
+    font-weight: bold;
+    padding: 10px 90px 10px 50px;
+    color: black;
+    text-decoration: none;
+    float: right;
+    border-radius: 10px;
+}
+
+a.text-btn:hover{
+    background: fixed;
+    text-decoration: underline 5px;
+}
